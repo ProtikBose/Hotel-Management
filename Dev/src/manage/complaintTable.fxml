@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manage.ComplaintTableController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Wood-HD-Backgrounds-1920×-Wood-Hd-Adorable-wallpaper-wp32012431.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="empComplain" layoutX="350.0" layoutY="64.0" prefHeight="321.0" prefWidth="342.0">
+        <columns>
+          <TableColumn fx:id="col1" prefWidth="120.0" text="Name" />
+            <TableColumn fx:id="col3" prefWidth="278.0" text="Review" />
+        </columns>
+      </TableView>
+      <Button layoutX="632.0" layoutY="14.0" mnemonicParsing="false" onAction="#backFromComp" text="Back" />
+      <ImageView fitHeight="180.0" fitWidth="242.0" layoutX="48.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@my-review.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

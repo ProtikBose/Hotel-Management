@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manage.PendingGuestController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Wood-HD-Backgrounds-1920×-Wood-Hd-Adorable-wallpaper-wp32012431.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="645.0" layoutY="14.0" mnemonicParsing="false" onAction="#backtomanager" text="Back" />
+      <TableView fx:id="table" layoutX="24.0" layoutY="27.0" prefHeight="355.0" prefWidth="452.0">
+        <columns>
+          <TableColumn fx:id="col1" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="col2" prefWidth="75.0" text="Guest ID" />
+            <TableColumn fx:id="col3" prefWidth="75.0" text="Approved By" />
+            <TableColumn fx:id="col4" prefWidth="75.0" text="Payment Taken By" />
+            <TableColumn fx:id="col5" prefWidth="75.0" text="Amount" />
+            <TableColumn fx:id="col6" prefWidth="75.0" text="Invoice ID" />
+        </columns>
+      </TableView>
+      <TextField fx:id="invidtext" layoutX="524.0" layoutY="169.0" promptText="Enter Invoice ID" />
+      <Button layoutX="572.0" layoutY="214.0" mnemonicParsing="false" onAction="#takenfunc" text="Taken">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+   </children>
+</AnchorPane>

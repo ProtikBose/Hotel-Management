@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manage.FoodController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@349245.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="629.0" mnemonicParsing="false" onAction="#backToClient" prefHeight="33.0" prefWidth="71.0" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button layoutX="34.0" layoutY="47.0" mnemonicParsing="false" onAction="#showmenu" prefHeight="37.0" prefWidth="77.0" text="Menu">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font></Button>
+      <Button layoutX="34.0" layoutY="113.0" mnemonicParsing="false" onAction="#showorder" prefHeight="37.0" prefWidth="77.0" text="Order">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font></Button>
+      <ImageView fx:id="sabji" fitHeight="89.0" fitWidth="109.0" layoutX="181.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Sobji-Khichuri.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="biriyani" fitHeight="90.0" fitWidth="109.0" layoutX="350.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@biriyani.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bergur" fitHeight="90.0" fitWidth="109.0" layoutX="517.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sandwich" fitHeight="89.0" fitWidth="109.0" layoutX="181.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@470361ea36c8930c69336019d626b780.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vorta" fitHeight="78.0" fitWidth="109.0" layoutX="350.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bb44afeb5c5a209aeea42f7046a378f6.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="daal" fitHeight="89.0" fitWidth="109.0" layoutX="517.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@15-min-daal-2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sing" fitHeight="89.0" fitWidth="109.0" layoutX="181.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@10258031_10151972850996746_8288722981410546476_o.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="meat" fitHeight="90.0" fitWidth="110.0" layoutX="354.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Nadan-Chicken-Perelan.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="juice" fitHeight="85.0" fitWidth="94.0" layoutX="34.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Juice.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vaat" fitHeight="90.0" fitWidth="110.0" layoutX="517.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@10752659_shutterstock_147035048.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="col1" layoutX="187.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sobji Khichuri">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="196.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="col2" layoutX="381.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Biriyani">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="col3" layoutX="548.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Burger">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="col4" layoutX="187.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sub Sandwich">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="col5" layoutX="373.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chicken">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Text>
+      <Text fx:id="col6" layoutX="544.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Daal">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Text>
+      <Text fx:id="col8" layoutX="208.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Singara">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Text>
+      <Text fx:id="col9" layoutX="365.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vorta Vaji">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Text>
+      <Text fx:id="col10" layoutX="550.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rice">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Text>
+      <Text fx:id="col7" layoutX="60.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Juice">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

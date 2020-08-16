@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manage.ManagerController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="702.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@managerback.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="24.0" layoutY="115.0" mnemonicParsing="false" onAction="#roomfunc" prefHeight="37.0" prefWidth="74.0" text="Room">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button layoutX="622.0" layoutY="12.0" mnemonicParsing="false" onAction="#logout" text="LogOut">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button layoutX="24.0" layoutY="262.0" mnemonicParsing="false" onAction="#empfunc" prefHeight="37.0" prefWidth="74.0" text="Employee">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <ImageView fitHeight="215.0" fitWidth="224.0" layoutX="461.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@5006033-4897645-batman.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="471.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Protik Bose Pranto">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="24.0" layoutY="188.0" mnemonicParsing="false" onAction="#complainfunc" prefHeight="37.0" prefWidth="74.0" text="Review">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Text fill="#6f2d2d" layoutX="24.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Ratings : ">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="pchart" layoutX="170.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="202.0" layoutY="152.0" mnemonicParsing="false" onAction="#searchGuestFunc" prefHeight="37.0" prefWidth="94.0" text="Search Guest">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button layoutX="202.0" layoutY="225.0" mnemonicParsing="false" onAction="#employeeFunc" prefHeight="37.0" prefWidth="118.0" text="Employ Employee">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button layoutX="202.0" layoutY="299.0" mnemonicParsing="false" onAction="#searchGuestFunc2" prefHeight="37.0" prefWidth="94.0" text="Guest Info">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button layoutX="24.0" layoutY="336.0" mnemonicParsing="false" onAction="#searchPending" prefHeight="37.0" prefWidth="118.0" text="Pending Payment">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+   </children>
+</AnchorPane>

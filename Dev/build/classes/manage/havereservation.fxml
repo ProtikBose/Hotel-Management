@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manage.HavereservationController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@thumb-1920-411820.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="NameF" layoutX="127.0" layoutY="75.0" prefHeight="38.0" prefWidth="200.0" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <Text fill="#fcf5f5" layoutX="38.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#f2ebeb" layoutX="12.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invoice No." textAlignment="CENTER" wrappingWidth="104.42138671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fcf5f5" layoutX="36.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ROOM">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#f2ecec" layoutX="32.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="reservF" layoutX="127.0" layoutY="145.0" prefHeight="50.0" prefWidth="200.0" wrapText="true" />
+      <TextArea fx:id="roomF" layoutX="127.0" layoutY="222.0" prefHeight="50.0" prefWidth="200.0" wrapText="true" />
+      <TextArea fx:id="amountF" layoutX="127.0" layoutY="296.0" prefHeight="50.0" prefWidth="200.0" wrapText="true" />
+      <Button layoutX="645.0" layoutY="14.0" mnemonicParsing="false" onAction="#BackClientfrompPofile" text="Back" />
+      <Text fill="#252424" layoutX="460.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bill Status">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="sel1" layoutX="467.0" layoutY="200.0" mnemonicParsing="false" text="Paid">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="sel2" layoutX="467.0" layoutY="237.0" mnemonicParsing="false" text="Not Paid">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="sel3" layoutX="469.0" layoutY="272.0" mnemonicParsing="false" text="Pending">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </RadioButton>
+   </children>
+</AnchorPane>
